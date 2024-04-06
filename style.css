@@ -1,0 +1,75 @@
+html {
+    align-self: center;
+    align-content: center;
+    /* background-image: url("https://i.pinimg.com/236x/8d/2e/03/8d2e0351c530f93217c09846ea5a82a3.jpg"); */
+    /* background-image: url("https://image.slidesdocs.com/responsive-images/docs/business-recruitment-a-bottom-board-publicity-poster-featuring-a-blue-resume-page-border-background-word-template_89b2337be3__1131_1600.jpg"); */
+}
+
+body {
+    padding-left: 450px;
+    padding-right: 350px;
+    align-self: center;
+    align-content: center;   
+    width: 1000px;
+    height: 100vh;
+    
+}
+header, footer {
+    height: 80px;
+    /* border: solid; */
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.main {
+    
+    background-color: hsl(210, 5%, 78%);
+    display: flex;
+    /* height: 100vh; */
+    
+}
+
+.side-bar {
+    
+    /* padding: 10px; */
+    flex: 1.5;
+    border: 1px solid black;
+}
+
+.content {
+    padding: 5px;
+    flex: 4.5;
+    border: 1px green solid;
+}
+
+#biography {
+    padding: 10px;
+    /* text-align: center; */
+    font-size: medium;
+}
+
+#languages {
+    padding: 5px;
+    font-size: medium;
+    align-items: self-start;
+
+}
+#contacts {
+    padding: 5px;
+    font-size: small;
+    align-items: self-start;
+    }
+
+#image {
+    display: flex;
+    /* width: 160px;
+    height: 200px; */
+    justify-content: center;
+    align-items: center;
+ }
+
+ img {
+    padding: 10px;
+    width: 70%; 
+    /* height: 50%; */
+ }
